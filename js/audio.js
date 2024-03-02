@@ -11,9 +11,9 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player("player", {
-    height: "0",
-    width: "0",
-    videoId: "Sp9AVGH-z6I",
+    height: "50",
+    width: "320",
+    videoId: "uDqvO3Lb_As",
     host: "http://www.youtube-nocookie.com",
     playerVars: { autoplay: 1, controls: 0 },
     events: {
@@ -55,10 +55,10 @@ function chooseMusic(event) {
   let videoId = "";
   console.log(musicNum);
   if (musicNum === "1") {
-    videoId = "Sp9AVGH-z6I";
+    videoId = "uDqvO3Lb_As";
     changeVideo(videoId);
   } else if (musicNum === "2") {
-    videoId = "eVJVEZOj9Ow";
+    videoId = "EHzayrRfdyw";
     changeVideo(videoId);
   } else if (musicNum === "3") {
     videoId = "xYQrPsyu-1s";
