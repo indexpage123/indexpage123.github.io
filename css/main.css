@@ -113,8 +113,12 @@ body {
 
   padding-top: 15px;
   
+  a{
+    text-decoration: none;
+  }
   
 }
+
 
 .bg-icon{
   display: flex;
